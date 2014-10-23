@@ -10,7 +10,7 @@
 
 .home .column {
 	
-	height: 264px;
+	height: 198px;
 }
 
 .row .column:before {
@@ -42,67 +42,67 @@
 	display: block;
 	}
 
-.row.one .column.one {
+#kara {
 	background-image: url('frames/kara-southeast.jpg')
 	}
-.row.one .column.one:before,
-.row.one .column.one:hover {
+#kara:before,
+#kara:hover {
 	background-image: url('frames/kara.jpg')
 	}
-.row.one .column.two {
+#jr {
 	background-image: url('frames/jr-south.jpg')
 	}
-.row.one .column.two:before,
-.row.one .column.two:hover {
+#jr:before,
+#jr:hover {
 	background-image: url('frames/jr.jpg')
 	}
-.row.one .column.three {
+#aubree {
 	background-image: url('frames/aubree-northwest.jpg')
 	}
-.row.one .column.three:before,
-.row.one .column.three:hover {
+#aubree:before,
+#aubree:hover {
 	background-image: url('frames/aubree.jpg')
 	}
-.row.two .column.one {
+#dina {
 	background-image: url('frames/dina-east.jpg')
 	}
-.row.two .column.one:before,
-.row.two .column.one:hover {
+#dina:before,
+#dina:hover {
 	background-image: url('frames/dina.jpg')
 	}
-.row.two .column.two {
+#samantha {
 	background-image: url('frames/samantha-angle.jpg')
 	}
-.row.two .column.two:before,
-.row.two .column.two:hover {
+#samantha:before,
+#samantha:hover {
 	background-image: url('frames/samantha.jpg')
 	}
-.row.two .column.three {
+#ranene {
 	background-image: url('frames/ranene-west.jpg')
 	}
-.row.two .column.three:before,
-.row.two .column.three:hover {
+#ranene:before,
+#ranene:hover {
 	background-image: url('frames/ranene.jpg')
 	}
-.row.three .column.one {
+#chris {
 	background-image: url('frames/chris-northeast.jpg')
 	}
-.row.three .column.one:before,
-.row.three .column.one:hover {
+#chris:before,
+#chris:hover {
 	background-image: url('frames/chris.jpg')
 	}
-.row.three .column.two {
+#randi {
 	background-image: url('frames/randi-north.jpg')
 	}
-.row.three .column.two:before,
-.row.three .column.two:hover {
+#randi:before,
+#randi:hover {
 	background-image: url('frames/randi.jpg')
 	}
-.row.three .column.three {
+#lindsey {
 	background-image: url('frames/lindsey-northwest.jpg')
 	}
-.row.three .column.three:before,
-.row.three .column.three:hover {
+#lindsey:before,
+#lindsey:hover {
 	background-image: url('frames/lindsey.jpg')
 	}
 
