@@ -20,40 +20,34 @@ if ( is_home() ) {
 
 <main class="<?php echo $main_class; ?>">
 
-<section class="row one thirds">
-	<div class="column one">
+<section class="row one quarters">
+	<div id="kara" class="column">
 		<div class="info">
 			<span>Kara</span>
 		</div>
 	</div>
-	<div class="column two">
+	<div id="jr" class="column">
 		<span>JR</span>
 	</div>
-	<div class="column three orange-back">
+	<div id="aubree" class="column orange-back">
 		<span>Aubree</span>
 	</div>
-</section>
-
-<section class="row two thirds">
-	<div class="column one">
+	<div id="dina" class="column">
 		<span>Dina</span>
 	</div>
-	<div class="column two">
+	<div id="samantha" class="column">
 		<span>Samantha</span>
 	</div>
-	<div class="column three">
+	<div id="ranene" class="column">
 		<span>Ranene</span>
 	</div>
-</section>
-
-<section class="row three thirds">
-	<div class="column one">
+	<div id="chris" class="column">
 		<span>Chris</span>
 	</div>
-	<div class="column two">
+	<div id="randi" class="column">
 		<span>Randi</span>
 	</div>
-	<div class="column three">
+	<div id="lindsey" class="column">
 		<span>Lindsey</span>
 	</div>
 </section>
