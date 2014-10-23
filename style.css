@@ -1,0 +1,110 @@
+/*
+ Theme Name:     Admissions - Counselors
+ Theme URI:      http://web.wsu.edu
+ Description:    A child theme for Washington State University's Spine framework
+ Author:         WSU University Communications
+ Author URI:     http://ucomm.wsu.edu
+ Template:       spine
+ Version:        0.0.1
+*/
+
+.home .column {
+	
+	height: 264px;
+}
+
+.row .column:before {
+	content: "";
+	}
+.row .column {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 125% auto;
+	box-sizing: border-box;
+	border-color: white;
+	border-style: solid;
+	border-width: 0px 5px 5px 0px;
+	position: relative;
+	}
+.row .column span {
+	color: white;
+	display: none;
+	position: absolute;
+	xxwidth: 100%;
+	bottom: 5px;
+	left: 5px;
+	text-align: right;
+	padding: 10px;
+	background: #b67233;
+	font-size: 2em;
+	}
+.row .column:hover span {
+	display: block;
+	}
+
+.row.one .column.one {
+	background-image: url('frames/kara-southeast.jpg')
+	}
+.row.one .column.one:before,
+.row.one .column.one:hover {
+	background-image: url('frames/kara.jpg')
+	}
+.row.one .column.two {
+	background-image: url('frames/jr-south.jpg')
+	}
+.row.one .column.two:before,
+.row.one .column.two:hover {
+	background-image: url('frames/jr.jpg')
+	}
+.row.one .column.three {
+	background-image: url('frames/aubree-northwest.jpg')
+	}
+.row.one .column.three:before,
+.row.one .column.three:hover {
+	background-image: url('frames/aubree.jpg')
+	}
+.row.two .column.one {
+	background-image: url('frames/dina-east.jpg')
+	}
+.row.two .column.one:before,
+.row.two .column.one:hover {
+	background-image: url('frames/dina.jpg')
+	}
+.row.two .column.two {
+	background-image: url('frames/samantha-angle.jpg')
+	}
+.row.two .column.two:before,
+.row.two .column.two:hover {
+	background-image: url('frames/samantha.jpg')
+	}
+.row.two .column.three {
+	background-image: url('frames/ranene-west.jpg')
+	}
+.row.two .column.three:before,
+.row.two .column.three:hover {
+	background-image: url('frames/ranene.jpg')
+	}
+.row.three .column.one {
+	background-image: url('frames/chris-northeast.jpg')
+	}
+.row.three .column.one:before,
+.row.three .column.one:hover {
+	background-image: url('frames/chris.jpg')
+	}
+.row.three .column.two {
+	background-image: url('frames/randi-north.jpg')
+	}
+.row.three .column.two:before,
+.row.three .column.two:hover {
+	background-image: url('frames/randi.jpg')
+	}
+.row.three .column.three {
+	background-image: url('frames/lindsey-northwest.jpg')
+	}
+.row.three .column.three:before,
+.row.three .column.three:hover {
+	background-image: url('frames/lindsey.jpg')
+	}
+
+
+
