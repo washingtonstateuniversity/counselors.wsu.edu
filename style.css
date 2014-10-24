@@ -12,6 +12,14 @@
 	
 	height: 198px;
 }
+body.home,
+body.home:not(.x) #jacket {
+	background: none;
+	}
+
+#bunch {
+	position: relative;
+	}
 
 .row .column:before {
 	content: "";
@@ -106,5 +114,82 @@
 	background-image: url('frames/lindsey.jpg')
 	}
 
+section.single .column.one {
+	background-image: url('frames/team.jpg');
+	height: 596px !important;
+	background-size: cover
+	background-repeat: no-repeat;
+	}
+	
+#thecounselors {
+	background-image: url('frames/thecounselors.png');
+	background-size: 198px;
+	background-color: #a65e27;
+	}
+	
+#chooser {
+	color: white;
+	color: #a65e27;
+	position: relative;
+	}
+#chooser header {
+	font-size: 2em;
+	line-height: 1em;
+	}
+#chooser form {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+#chooser form select {
+   color: #eddccc;
+   color: #ffb81c;
+   background: transparent;
+   background: #b67233;
+   width: 268px;
+   padding: 5px 10px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   width: 100%;
+   margin-top: 5px;
+   }
+	
+.hybrid .row .halved {
+	width: 396px;
+	}
 
+.switched {
+	background: none !important;
+	}
+	
+#counselor-focus {
+	display: none;
+	width: 396px;
+	height: 396px;
+	background-image: url('frames/dina.jpg');
+	background-size: 100% auto;
+	position: absolute;
+	top: 0;
+	left: 396px;
+	z-index: 99164;
+	box-sizing: border-box;
+	border-right: 5px solid white;
+	border-bottom: 5px solid white;
+	}
+#counselor-focus:hover,
+#counselor-focus:before {
+	background-image: url('frames/dina-funny.jpg');
+	}
+.counselor-selected #counselor-focus {
+	display: block;
+
+	}
+.counselor-selected .face:not(:hover) {
+	xxbackground: #8f7e35 !important;
+	opacity: .25;
+	}
 
