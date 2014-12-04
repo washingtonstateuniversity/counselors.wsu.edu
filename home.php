@@ -101,8 +101,9 @@ $(document).ready( function(){
 	</div>
 </section>
 
-
 </main>
+<script type="text/javascript" src="//uchat.co/widget.js?school=washingtonstate"></script>
+
 <?php
 
 get_footer();

@@ -18,4 +18,5 @@ function spine_child_enqueue_scripts() {
 	// This enqueues a script, located in this project's /js/ directory, and tells WordPress
 	// that jQuery is also required. The final parameter - true - loads the script in the footer.
 	wp_enqueue_script( 'wsu-spine-child', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), spine_get_script_version(), true );
+	//wp_enqueue_script( 'wsu-uchat', '//uchat.co/widget.js?school=washingtonstate', array( 'jquery' ), spine_get_script_version(), true );
 }
